@@ -1,7 +1,4 @@
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
+{
   "name": "tanstack_start_ts",
   "private": true,
   "sideEffects": false,
@@ -86,7 +83,5 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
     "vite": "^7.3.1"
-  
-}
-
+  }
 }
