@@ -60,7 +60,7 @@ function Index() {
     const token =
       typeof window !== "undefined" ? localStorage.getItem("documind_token") : null;
     if (!token) {
-      window.location.href = "/login.html";
+      window.location.href = "/client/login.html";
     } else {
       setAuthed(true);
       // Initialize theme from storage; default dark
