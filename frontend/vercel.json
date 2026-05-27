@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/client",
+  "rewrites": [
+    { "source": "/login.html", "destination": "/login.html" },
+    { "source": "/register.html", "destination": "/register.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
